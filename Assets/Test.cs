@@ -58,8 +58,8 @@ public class Test : MonoBehaviour {
 	private void ArrayTest () {
 		int[] points = {22, 11, 555, 66, 8};
 
-		for (int i = 0; i < points.Length; i++) {
-			Debug.Log (points[i]);
+		for (int i = points.Length - 1; i >= 0; i--) {
+			Debug.Log (points [i]);
 		}
 	}
 }
